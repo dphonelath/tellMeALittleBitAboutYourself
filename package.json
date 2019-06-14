@@ -1,0 +1,27 @@
+{
+  "name": "tellMeALittleBitAboutYourself",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dphonelath/tellMeALittleBitAboutYourself.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dphonelath/tellMeALittleBitAboutYourself/issues"
+  },
+  "homepage": "https://github.com/dphonelath/tellMeALittleBitAboutYourself#readme",
+  "dependencies": {
+    "next": "^8.1.0",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
