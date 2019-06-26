@@ -1,10 +1,17 @@
-import Header from "./Header"
+import Head from "next/head";
+import Navbar from "./Navbar";
+
 
 const Layout = (props) => {
     return (
         <div>
-            <Header />
-            {props.children}
+            <Head>
+                <title>Tell Me a Little Bit About Yourself</title>
+            </Head>
+            <Navbar/>
+            <div className="container">
+                {props.children}
+            </div>
         </div>
     )
 }
